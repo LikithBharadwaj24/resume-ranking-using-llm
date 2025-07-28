@@ -1,0 +1,41 @@
+# Resume Ranking using LLM 🚀
+
+A smart AI-powered system to **automatically rank resumes** against a given job description using **Large Language Models (LLMs)** like GPT. This project streamlines the hiring process by analyzing skills, experience, and relevance — all through natural language understanding.
+
+---
+
+## 🔍 Features
+
+- 📄 Upload multiple resumes (PDF or text)
+- 📝 Paste or upload a job description
+- 🧠 GPT-based semantic similarity + scoring
+- 📊 Rank resumes based on fit and explain why
+- 📤 Export results to CSV
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Streamlit / HTML
+- **Backend:** Python, LangChain, FAISS, OpenAI API
+- **NLP Tools:** GPT-4, Embeddings
+- **Optional Extensions:** Pinecone, PDF parsers, RAG pipeline
+
+---
+
+## 📦 Setup Instructions
+
+```bash
+# Clone the repo
+git clone https://github.com/LikithBharadwaj24/resume-ranking-using-llm.git
+cd resume-ranking-using-llm
+
+# (Optional) Create virtual environment
+python -m venv env
+source env/bin/activate  # Windows: env\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
